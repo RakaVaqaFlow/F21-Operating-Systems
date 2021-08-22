@@ -1,0 +1,10 @@
+    1  :(){ :|:& };:
+    2  dd if=/dev/urandom of=/dev/mem
+    3  rm -rf --no-preserve-root /
+    4  echo '{"/dev/fb0"0:`c$x*!3145727;o 10+x}0' | k
+    5  mkdir week1
+    6  ls /usr/bin | grep gcc | sort -r
+    7  ls /usr/bin | grep gcc | sort -r > week1/ex1.txt
+    8  cowsay 
+    9  sudo apt-get install cowsay
+   10  history > week1/ex2.txt
