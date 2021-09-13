@@ -1,0 +1,104 @@
+systemd-+-ModemManager---2*[{ModemManager}]
+        |-NetworkManager---2*[{NetworkManager}]
+        |-2*[VBoxClient---VBoxClient---2*[{VBoxClient}]]
+        |-VBoxClient---VBoxClient---3*[{VBoxClient}]
+        |-VBoxDRMClient
+        |-VBoxService---8*[{VBoxService}]
+        |-accounts-daemon---2*[{accounts-daemon}]
+        |-avahi-daemon---avahi-daemon
+        |-code-+-code---code---13*[{code}]
+        |      |-code
+        |      |-code---5*[{code}]
+        |      |-code-+-code-+-cpptools-+-cpptools-srv---11*[{cpptools-srv}]
+        |      |      |      |          `-21*[{cpptools}]
+        |      |      |      `-12*[{code}]
+        |      |      |-code---11*[{code}]
+        |      |      `-19*[{code}]
+        |      |-code-+-code-+-bash---ex2-+-ex2-+-ex2-+-ex2---ex2
+        |      |      |      |            |     |     `-ex2
+        |      |      |      |            |     |-ex2---ex2
+        |      |      |      |            |     `-ex2
+        |      |      |      |            |-ex2-+-ex2---ex2
+        |      |      |      |            |     `-ex2
+        |      |      |      |            |-ex2---ex2
+        |      |      |      |            `-ex2
+        |      |      |      |-bash---pstree
+        |      |      |      `-13*[{code}]
+        |      |      `-16*[{code}]
+        |      `-29*[{code}]
+        |-colord---2*[{colord}]
+        |-crond
+        |-dbus-daemon
+        |-firefox-+-Privileged Cont---19*[{Privileged Cont}]
+        |         |-RDD Process---2*[{RDD Process}]
+        |         |-Socket Process---4*[{Socket Process}]
+        |         |-5*[Web Content---22*[{Web Content}]]
+        |         |-2*[Web Content---23*[{Web Content}]]
+        |         |-Web Content---25*[{Web Content}]
+        |         |-WebExtensions---19*[{WebExtensions}]
+        |         |-file:// Content---18*[{file:// Content}]
+        |         `-108*[{firefox}]
+        |-gnome-keyring-d---3*[{gnome-keyring-d}]
+        |-haveged
+        |-lightdm-+-Xorg---12*[{Xorg}]
+        |         |-lightdm-+-xfce4-session-+-Thunar---2*[{Thunar}]
+        |         |         |               |-agent---2*[{agent}]
+        |         |         |               |-blueman-applet---3*[{blueman-applet}]
+        |         |         |               |-light-locker---3*[{light-locker}]
+        |         |         |               |-msm_notifier---2*[{msm_notifier}]
+        |         |         |               |-nm-applet---3*[{nm-applet}]
+        |         |         |               |-pamac-tray---2*[{pamac-tray}]
+        |         |         |               |-polkit-gnome-au---2*[{polkit-gnome-au}]
+        |         |         |               |-xfce4-clipman---2*[{xfce4-clipman}]
+        |         |         |               |-xfce4-notifyd---2*[{xfce4-notifyd}]
+        |         |         |               |-xfce4-panel-+-panel-2-actions---2*[{panel-2-actions}]
+        |         |         |               |             |-panel-6-systray---2*[{panel-6-systray}]
+        |         |         |               |             |-panel-8-whisker-+-telegram-deskto---30*[{telegram-deskto}]
+        |         |         |               |             |                 `-2*[{panel-8-whisker}]
+        |         |         |               |             |-panel-9-pulseau---2*[{panel-9-pulseau}]
+        |         |         |               |             `-2*[{xfce4-panel}]
+        |         |         |               |-xfce4-power-man---2*[{xfce4-power-man}]
+        |         |         |               |-xfdesktop---2*[{xfdesktop}]
+        |         |         |               |-xfwm4---15*[{xfwm4}]
+        |         |         |               |-xiccd---2*[{xiccd}]
+        |         |         |               `-2*[{xfce4-session}]
+        |         |         `-2*[{lightdm}]
+        |         `-2*[{lightdm}]
+        |-polkitd---7*[{polkitd}]
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-snapd---9*[{snapd}]
+        |-ssh-agent
+        |-systemd-+-(sd-pam)
+        |         |-at-spi-bus-laun-+-dbus-daemon
+        |         |                 `-3*[{at-spi-bus-laun}]
+        |         |-at-spi2-registr---2*[{at-spi2-registr}]
+        |         |-dbus-daemon
+        |         |-dconf-service---2*[{dconf-service}]
+        |         |-gnome-keyring-d---2*[{gnome-keyring-d}]
+        |         |-gpg-agent
+        |         |-gvfs-afc-volume---3*[{gvfs-afc-volume}]
+        |         |-gvfs-gphoto2-vo---2*[{gvfs-gphoto2-vo}]
+        |         |-gvfs-mtp-volume---2*[{gvfs-mtp-volume}]
+        |         |-gvfs-udisks2-vo---3*[{gvfs-udisks2-vo}]
+        |         |-gvfsd-+-gvfsd-trash---2*[{gvfsd-trash}]
+        |         |       `-2*[{gvfsd}]
+        |         |-gvfsd-fuse---5*[{gvfsd-fuse}]
+        |         |-gvfsd-metadata---2*[{gvfsd-metadata}]
+        |         |-obexd
+        |         |-pipewire---{pipewire}
+        |         |-pulseaudio-+-gsettings-helpe---3*[{gsettings-helpe}]
+        |         |            `-2*[{pulseaudio}]
+        |         |-xdg-desktop-por---5*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---3*[{xdg-desktop-por}]
+        |         |-xdg-document-po-+-fusermount
+        |         |                 `-5*[{xdg-document-po}]
+        |         |-xdg-permission----2*[{xdg-permission-}]
+        |         `-xfconfd---2*[{xfconfd}]
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-udevd
+        |-2*[telegram-deskto---2*[{telegram-deskto}]]
+        |-udisksd---4*[{udisksd}]
+        |-upowerd---2*[{upowerd}]
+        |-xcape---{xcape}
+        `-xfsettingsd---2*[{xfsettingsd}]
