@@ -1,0 +1,8 @@
+Vagif Khalilov BS20-04
+
+Difference between a Physical and a Virtual address
+
+    The main difference between physical memory and virtual memory is that physical memory point to real memory location in RAM, 
+    when  virtual memory consist virtual adress. Virtual adress are mapped to the physcial adresses at execution time. 
+    That means that virtual memory can be large than physical. 
+    This approach can help us to solve the problem of program accommodation.

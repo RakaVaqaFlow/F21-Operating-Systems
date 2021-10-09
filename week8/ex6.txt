@@ -1,0 +1,13 @@
+Vagif Khalilov BS20-04
+
+16-bit virtual addresses
+Pages are 8 KB
+―――――――――――――――――――――――――
+
+16-bit virtual adress is divided into the virtual page number and offset  ⎫
+                                                                          │ => 16 - 13 = 3 bit for page number
+8kb = 2^13 bit - so we have 13 bits for the offset                        ⎭
+
+So, for a single-level linear page table we have 2^3 = 8 entries.
+
+Ans: 8 entries.
