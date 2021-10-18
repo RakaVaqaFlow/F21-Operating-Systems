@@ -1,0 +1,22 @@
+N - number of page frames
+
+Let's at this event:
+
+    suppose our sequence at some point in time t0 has such form:
+
+    i:    0 1 2 ... i  i+1 ... i+N-2    i+N-1     j 
+    page: a b c ... q0 q1  ... q(i+n-2) q(i+n-1)  c
+
+    and Q = [q0, q1, ... , q(i+n-2), q(i+n-1)]  - in our page table now
+
+To increase Hit/Miss ratio:
+
+     we must make sure that the (с ∈ Q) occurs as OFTEN as possible during processing (at t0, at t1...)
+
+     example for N = 3 : 0 1 2 0 1 2 0 1 2 ....
+
+To decrease Hit/Miss ratio:
+
+    we must make sure that the (с ∈ Q) occurs as RARELY as possible during processing
+
+    example for N = 3: 1 2 3 4 5 6 1 2 3 4 5 6 ....
