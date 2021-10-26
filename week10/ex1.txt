@@ -1,1 +1,6 @@
-
+i-node _ex1.txt:
+6819034 _ex1.txt
+i-node _ex1_1.txt:
+6819034 _ex1_1.txt
+i-node _ex1_2.txt:
+6819034 _ex1_2.txt

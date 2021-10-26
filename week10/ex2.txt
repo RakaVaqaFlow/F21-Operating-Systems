@@ -1,0 +1,5 @@
+i-node number of file.txt 6947357 
+files with same i-node:
+../week10/week10/_ex2.txt
+../week10/week01/file.txt
+now, let's remove them
