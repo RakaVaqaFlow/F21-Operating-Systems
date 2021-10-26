@@ -1,0 +1,12 @@
+-rw-r--r-- 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+-rwx---rwx 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+-rwxrwxrwx 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+Answers:
+-rw-rw---- 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+    So, 660 mean that only owner and group have can read file and write to it
+
+-rwxrwxr-x 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+    So, 775 mean that only owner and group have all permissions, others can only read and execute it.
+
+-rwxrwxrwx 1 vagif vagif 15 окт 26 22:52 _ex3.txt
+    So, 777 mean that everyone can read, write and execute file
