@@ -1,6 +1,6 @@
 #!/bin/bash
 img=lofs.img
-dd if=/dev/zero of=$img bs=1M count=55
+dd if=/dev/zero of=$img bs=1M count=50
 sudo losetup -fP $img
 mkfs.ext4 ./$img
 disk=lofsdisk

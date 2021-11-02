@@ -1,0 +1,32 @@
+without root change:
+opt
+root
+rootfs-pkgs.txt
+etc
+tmp
+.
+mnt
+desktopfs-pkgs.txt
+dev
+proc
+sys
+.manjaro-tools
+srv
+lost+found
+var
+home
+usr
+run
+boot
+..
+
+with root change:
+ex2.c
+ex2.out
+file2.txt
+file1.txt
+.
+lib
+lib64
+bin
+..
