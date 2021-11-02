@@ -13,8 +13,7 @@ int main(){
     struct dirent *ent;
     if ((dir = opendir ("/")) == NULL)  return 0;
     while (ent = readdir(dir)) {
-    	if ((*ent).d_type == DT_REG || (*ent).d_type == DT_DIR)
-    		printf("%s\n", (*ent).d_name);
+    	printf("%s\n", (*ent).d_name);
     }
     closedir(dir);
     return 0;

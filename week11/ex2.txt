@@ -1,6 +1,7 @@
 without root change:
 opt
 root
+snap
 rootfs-pkgs.txt
 etc
 tmp
@@ -10,15 +11,19 @@ desktopfs-pkgs.txt
 dev
 proc
 sys
+sbin
 .manjaro-tools
 srv
 lost+found
 var
 home
 usr
+lib64
+bin
 run
 boot
 ..
+lib
 
 with root change:
 ex2.c
