@@ -1,0 +1,8 @@
+available shortcuts:
+ C + A + P - print "Get some cappuccino!"
+ P + E - print "I passed the Exam!"
+ S + Y + E - print "See you on retake!"
+Get some cappuccino!
+I passed the Exam!
+See you on retake!
+I passed the Exam!
