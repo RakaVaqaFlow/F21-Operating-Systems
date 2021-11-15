@@ -23,6 +23,8 @@ Banker’s Algorithm from book "Modern Operating Systems" by Andrew Tanenbaum:
     resource needs can be met (in which case the system was not safe).
 
 */
+
+//specify N and M before compiling
 const int N = 5;
 const int M = 3; 
 
