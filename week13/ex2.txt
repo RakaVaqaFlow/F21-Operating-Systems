@@ -1,1 +1,19 @@
+Recovery
 
+The advantage of this approach is that it does not require a large number of checks during CPU operation.
+If a significant number of processes are blocked,
+the CPU load will decrease, the system will detect this, find the blocked processes and destroy
+some of them to solve the problem. In conclusion, it can be said that this is not difficult to implement,
+but inefficient. It may be better than others if deadlocks in our system
+are rare.
+
+Prevention
+
+This. This is implemented by attacking the conditions
+with a dead-end view. If we want to create an effective system, we can use a combination of prevention and recovery.
+
+Avoidance
+
+Avoidance can be used effectively in systems where we can
+know the needs of processes in advance. In this case, we can apply, for example, the Banker's Algorithm and avoid
+dead ends, if possible. In conclusion, it should be noted that avoidance is not a working model for real systems.
